@@ -42,7 +42,7 @@
                     <input type="password" id="password" onkeyup="updateChat()">
                 </div>
             </div>
-            <p>CONTENT TRANSMITTED AS TYPED</p>
+            <p>CONTENT TRANSMITTED AS IS TYPED</p>
             <textarea id="message" name="message" onkeyup="updateChat()"></textarea>
         </form>
     </div>
