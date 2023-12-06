@@ -1,0 +1,88 @@
+body {
+    display: grid;
+    grid-template-rows: 1fr 5fr 5fr;
+    width: 97vw;
+    height: 97vh;
+    margin: auto;
+
+}
+
+body>* {
+    border: black solid 1px;
+    width: 100%;
+}
+
+.data-table td {
+    border: black solid 1px;
+    text-align: center;
+}
+
+.data-table>* {
+    height: 100%;
+}
+
+.data-table {
+    width: 100%;
+    height: 100%;
+}
+
+.container form {
+    display: grid;
+    width: 50%;
+}
+
+.container form>* {
+    padding: 2% 0 2% 1%;
+    margin: 2% 0 2% 1%;
+}
+
+.topgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.topgrid div>* {
+    padding: 2% 0 2% 1%;
+    margin: 2% 0 2% 1%;
+    width: 100%;
+}
+
+.bottomgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bottomgrid>* {
+    margin: auto;
+    padding: 1%;
+    padding: 2% 0 2% 1%;
+    margin: 2% 0 2% 1%;
+}
+
+.bottomgrid p {
+    text-transform: uppercase;
+}
+
+.bottomgrid input {
+    height: 25%;
+    padding: 2% 0 2% 1%;
+    margin: 2% 0 2% 1%;
+}
+
+button {
+    border-radius: 60px;
+    width: 80px;
+    height: 20%;
+    margin: 5%;
+    padding: 5px;
+}
+
+body> :nth-child(3) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+body> :nth-child(3)>form {
+    display: grid;
+    width: 100%;
+}
